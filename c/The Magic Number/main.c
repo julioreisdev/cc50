@@ -23,7 +23,7 @@ int verify(int attemptValue, int magicNumber, int attemptNumber)
     if (success(attemptValue, magicNumber))
     {
         printf("_____________\n* Success! *\n");
-        printf("Points: %i \n", points / attemptNumber);
+        printf("Points:  %i \n", points / attemptNumber);
         over = 1;
     }
 
